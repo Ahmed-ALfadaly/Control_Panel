@@ -1,0 +1,13 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-size: $fontsize;
+    font-family: $family-content;
+    color: $color-content;
+    background-color: $color-background;
+    line-height: $line-height;
+}

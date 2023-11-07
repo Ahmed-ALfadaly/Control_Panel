@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'janna LT';
+    src:local() url(../fonts/janna.woff) format(woff); /* web open font face*/ /* local-- for searching about the fonts in our local device*/
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'janna LT';
+    src:local() url(../fonts/janna-bold.woff) format(woff); /* web open font face*/ /* local-- for searching about the fonts in our local device*/
+    font-weight: bold;
+}
+
+$family-heading: 'janna LT', 'Helvetica Neue','Segoe UI', 'Sans-serif';
+$family-content: -apple-system, BlinkMacSystemFonts, 'Helvetica Neue','Geeza pro','Segoe UI', 'Sans-serif';
